@@ -1,0 +1,54 @@
+.small-contact-form-wrapper {
+  margin-top: 1rem;
+  border-radius: var(--borderRadius);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem 1rem;
+  color: white;
+  text-align: center;
+}
+.small-contact-form-p {
+  text-align: center;
+  font-size: 1.1rem;
+  padding-bottom: 0.2rem;
+}
+
+.small-contact-form-input {
+  padding: 0.4rem 0.5rem;
+  font-size: 1.1rem;
+  color: var(--green-8);
+  outline-color: var(--green-5);
+  margin-bottom: 0.2rem;
+  width: 50%;
+}
+
+.contact-form-address,
+.small-contact-form-textarea {
+  width: 100%;
+}
+.small-contact-form-textarea {
+  font-size: 1.2rem;
+  height: 10rem;
+}
+.small-contact-form-input:focus,
+.small-contact-form-textarea:focus {
+  background-color: var(--green-5);
+  color: white;
+}
+.small-contact-form-input:focus::placeholder,
+.small-contact-form-textarea:focus::placeholder {
+  color: white;
+}
+
+.small-contact-form-submit {
+  background-color: var(--green-5);
+  display: block;
+  width: 100%;
+  background-color: var(--orange);
+}
+.small-contact-form-submit:hover {
+  background-color: var(--orange-hover);
+}
+.form-capitalize {
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+}

@@ -1,0 +1,11 @@
+.inline-widget-wrapper {
+  min-width: 400px;
+  min-height: 800px;
+  scroll-behavior: unset;
+}
+
+.booking-calendly-widget {
+  min-width: 320px;
+  height: 750px;
+  overflow: hidden;
+}

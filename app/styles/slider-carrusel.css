@@ -1,0 +1,80 @@
+.sliders-carrusel-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.gallery-card {
+  width: 14rem;
+  height: 15rem;
+  background-color: rgba(0, 0, 0.1);
+  padding: 1rem;
+  padding-bottom: 2rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+.gallery-card:hover {
+  background-color: rgba(0, 0, 0.8);
+  transition: var(--transition);
+  overflow: hidden;
+}
+.card-img-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+.gallery-card-img-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.gallery-card-img {
+  height: 90%;
+  margin: auto;
+}
+.gallery-card:hover .gallery-card-img-backdrop {
+  background-color: rgba(0, 0, 0, 0);
+}
+.gallery-card:hover .card-img-wrapper {
+  transform: scale(1.05);
+}
+h6 {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* this is in the fullScreen Component */
+.gallery-page-link {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .card-img-wrapper {
+    height: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .sliders-carrusel-wraper {
+    margin: 2rem 0;
+  }
+  .gallery-card {
+    width: 12rem;
+    height: 14rem;
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .gallery-card {
+    width: 49%;
+    height: 14rem;
+    margin: 1px;
+  }
+}

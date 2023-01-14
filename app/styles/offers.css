@@ -1,0 +1,74 @@
+main {
+  width: 80vw;
+  margin: auto;
+}
+.fixed-background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797221/offers/spray-finish-railing-runners-and-risers_gibfea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.card-wrap {
+  /* background-color: blueviolet; */
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 12rem 0;
+}
+.card-wrap-right {
+  justify-content: flex-end;
+}
+.card {
+  width: 50%;
+  background-color: var(--green-6);
+  padding: 2rem 1rem;
+  color: white;
+  border-radius: var(--borderRadius);
+}
+.card:hover {
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  animation: push-up 1s ease-out forwards;
+}
+.offer-ends {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  background-color: rgb(55, 51, 51);
+  padding: 0.2rem;
+  border-radius: var(--borderRadius);
+}
+.offer-ends:hover {
+  background-color: black;
+}
+.card-img {
+  margin: auto;
+  display: block;
+}
+
+@media (max-width: 1100px) {
+  .card {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .card {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    width: 98vw;
+  }
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 98%;
+  }
+}

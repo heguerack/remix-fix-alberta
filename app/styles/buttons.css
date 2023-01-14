@@ -1,0 +1,72 @@
+.button {
+  background-color: var(--green-5);
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: var(--borderRadius);
+  font-size: 1.1rem;
+  display: inline-block;
+  margin: auto;
+}
+.button:hover {
+  background-color: var(--green-6);
+}
+
+/* BOOKING BUTTONS  BOOKING BUTTONS  BOOKING BUTTONS  */
+.book-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.book-button {
+  color: var(--textColor);
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+.book-button-up {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-icon {
+  font-size: 3.5rem;
+}
+
+.phone-icon {
+  font-size: 2rem;
+}
+.hand-icon {
+  font-size: 1.8rem;
+  margin: 0 0.8rem;
+}
+.book-button-down {
+  color: white;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  background-color: var(--green-5);
+}
+.black {
+  background-color: rgb(55, 51, 51);
+  color: white;
+}
+
+.book-button-down p {
+  /* font-size: 1.2rem; */
+  text-align: center;
+}
+.book-button:hover .book-button-down {
+  background-color: var(--green-6);
+}
+.book-button:hover .black {
+  background-color: black;
+}
+
+@media (max-width: 500px) {
+  .book-button-wrapper {
+    margin: 0 0.5rem;
+  }
+}

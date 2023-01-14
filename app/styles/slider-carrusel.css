@@ -45,7 +45,7 @@
 .gallery-card:hover .card-img-wrapper {
   transform: scale(1.05);
 }
-h6 {
+h3 {
   color: white;
   text-align: center;
   font-size: 1rem;

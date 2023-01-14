@@ -18,8 +18,8 @@ header {
   background-color: white;
   color: var(--green-11);
   margin-left: 1rem;
-  padding: 0.3rem 0;
-  padding-right: 0.5rem;
+  padding: 0.3rem;
+
   border-radius: var(--borderRadius);
 }
 .cell-phone-icon {

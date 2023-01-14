@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thankyou-headings-wrap {
+  background-color: var(--green-5);
+  padding: 1rem;
+  color: white;
+  border-radius: var(--borderRadius);
+}
+h1,
+h2 {
+  font-size: 1.4rem;
+}
+p {
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+.gallery-link-button {
+  background-color: var(--green-5);
+  padding: 0.5rem;
+  color: white;
+  border-radius: var(--borderRadius);
+}

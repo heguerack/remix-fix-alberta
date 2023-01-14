@@ -11,9 +11,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797217/home/services/interior-painting-brush_gooksk.png'
             alt='a paint brush inside a house'
           />
-          <h3 className='single-service'>
-            <span>INTERIOR</span>
-            <span>PAINTING</span>
+          <h3 className='single-service-heading'>
+            <div>INTERIOR</div>
+            <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/house-painting-and-commercial-painting'>
@@ -28,9 +28,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797217/home/services/exterior-painting-brush_ukhh2h.png'
             alt='a paint brush outside a house'
           />
-          <h3 className='single-service'>
-            <span>EXTERIOR </span>
-            <span>PAINTING</span>
+          <h3 className='single-service-heading'>
+            <div>EXTERIOR </div>
+            <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/house-painting-and-commercial-painting'>
@@ -45,9 +45,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797216/home/services/commercial-painting-icon_rwbsf9.png'
             alt='commercial building - black background'
           />
-          <h3 className='single-service'>
-            <span>COMMERCIAL</span>
-            <span>PAINTING</span>
+          <h3 className='single-service-heading'>
+            <div>COMMERCIAL</div>
+            <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/house-painting-and-commercial-painting'>
@@ -62,9 +62,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797215/home/credentials/house-painter-icon_qygmaj.png'
             alt='a painter holding a paint can with one arm and a paint roller up with the other hand, like if he was going to paint a ceiling '
           />
-          <h3 className='single-service'>
-            <span>CELING </span>
-            <span>PAINTING</span>
+          <h3 className='single-service-heading'>
+            <div>CELING </div>
+            <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/house-painting-and-commercial-painting'>
@@ -84,9 +84,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797217/home/services/gg_hrotnm.png'
             alt='a guy scraping popcorn texture from a ceiling'
           />
-          <h3 className='single-service'>
-            <span>POPCORN</span>
-            <span>REMOVAL</span>
+          <h3 className='single-service-heading'>
+            <div>POPCORN</div>
+            <div>REMOVAL</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
@@ -104,9 +104,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797216/home/services/drywall-mud_scepy2.jpg'
             alt='a guy applying drywall mud on a wall'
           />
-          <h3 className='single-service'>
-            <span>DRYWALL</span>
-            <span>MUD & TAPE</span>
+          <h3 className='single-service-heading'>
+            <div>DRYWALL</div>
+            <div>MUD & TAPE</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
@@ -121,9 +121,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797217/home/services/popcorn-ceiling-icon_bgmyhh.png'
             alt='celing texture spray gun in action'
           />
-          <h3 className='single-service'>
-            <span>CEILING</span>
-            <span>TEXTURING</span>
+          <h3 className='single-service-heading'>
+            <div>CEILING</div>
+            <div>TEXTURING</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
@@ -138,9 +138,9 @@ export default function HomeServices() {
             src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672797216/home/services/commercial-painting-brush-and-roll_nd1ueh.png'
             alt='big house, it shows equipment and tools for exterior stucco application'
           />
-          <h3 className='single-service'>
-            <span>STUCCO</span>
-            <span>APPLICATION</span>
+          <h3 className='single-service-heading'>
+            <div>STUCCO</div>
+            <div>APPLICATION</div>
           </h3>
           <div className='service-buttons-div'>
             <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>

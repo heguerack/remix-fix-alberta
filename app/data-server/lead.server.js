@@ -14,6 +14,6 @@ export async function addLead(leadData) {
     })
   } catch (error) {
     console.log(error)
-    throw error
+    throw new Error('failed to add the data to the CRM-mongo-database')
   }
 }

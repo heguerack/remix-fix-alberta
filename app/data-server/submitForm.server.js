@@ -43,7 +43,6 @@ export default async function sendEmail(leadData) {
       html: `<div><h3>${firstName} ${lastName} wrote:<h3/> <p>${message}</p></div>`,
     })
   } catch (error) {
-    console.log(error)
-    throw error
+    throw new Error('Failed to send emails to Alberta Colour Painting Serveres')
   }
 }

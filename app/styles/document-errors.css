@@ -1,0 +1,17 @@
+.catchboundary-error {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  text-align: center;
+}
+
+.error-goto-homepage {
+  background-color: var(--green-5);
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  color: white !important;
+  border-radius: var(--borderRadius);
+}

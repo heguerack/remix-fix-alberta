@@ -1,12 +1,11 @@
 import {
-  CallEstimateButton,
   DrywallEstimateButton,
   PaintingEstimateButton,
 } from '~/components/util/Buttons'
 import ContactFormSmall from '~/components/util/ContactFormSmall'
 import styledContactFormSmall from '../styles/contact-form-small.css'
 import styledContact from '../styles/contact-page.css'
-import { addLead } from '../data-server/lead.server'
+// import { addLead } from '../data-server/lead.server'
 import { validateLeadInput } from '~/data-server/validation.server'
 import sendEmail from '~/data-server/submitForm.server'
 import { redirect } from '@remix-run/node'
@@ -59,7 +58,7 @@ export async function action({ request }) {
   } catch (error) {
     return error
   }
-  await addLead(leadData)
+  // await addLead(leadData)
   await sendEmail(leadData)
   return redirect('/thank-you')
 }

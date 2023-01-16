@@ -11,7 +11,7 @@ import HomeVideo from '~/components/home/HomeVideo'
 import HomeBlogOffers from '~/components/home/HomeBlogOffers'
 import HomeCredentials from '~/components/home/HomeCredentials'
 import HomeGallery from '~/components/home/HomeGallery'
-import { addLead } from '../data-server/lead.server'
+// import { addLead } from '../data-server/lead.server'
 import { validateLeadInput } from '~/data-server/validation.server'
 import sendEmail from '~/data-server/submitForm.server'
 import { redirect } from '@remix-run/node'
@@ -44,7 +44,7 @@ export async function action({ request, params }) {
     // so instead of throwing an error, we return the error object to place it in the form so that they know whats wront right there at he form, it can be obtain in the form with the useActionData hook
     return error
   }
-  await addLead(leadData)
+  // await addLead(leadData)
   await sendEmail(leadData)
   return redirect('/thank-you')
 }

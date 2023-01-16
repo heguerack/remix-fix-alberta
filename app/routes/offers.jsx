@@ -6,7 +6,7 @@ import {
   DrywallEstimateButton,
 } from '../components/util/Buttons'
 import { FaCheckCircle } from 'react-icons/fa'
-import { addLead } from '../data-server/lead.server'
+// import { addLead } from '../data-server/lead.server'
 import { validateLeadInput } from '~/data-server/validation.server'
 import sendEmail from '~/data-server/submitForm.server'
 import { redirect } from '@remix-run/node'
@@ -114,7 +114,7 @@ export async function action({ request }) {
   } catch (error) {
     return error
   }
-  await addLead(leadData)
+  // await addLead(leadData)
   await sendEmail(leadData)
   return redirect('/thank-you')
 }

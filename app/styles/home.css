@@ -5,7 +5,7 @@
   height: calc(100vh - 5rem);
   width: 100%;
   z-index: 1;
-  background: url(https://res.cloudinary.com/alberta-colour-painting/image/upload/v1673506004/big-livingroom-freshly-painted_q2xmna_pnas7j.webp);
+  background: url(https://res.cloudinary.com/alberta-colour-painting/image/upload/v1673588072/slider-carrusel/big-livingroom-freshly-painted_q2xmna_pnas7j_ltp2xm.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,10 +50,10 @@
 }
 
 @media (max-width: 1200px) {
-  .home-showcase {
+  /* .home-showcase {
     background-size: cover;
     background: url(https://res.cloudinary.com/alberta-colour-painting/image/upload/v1673588072/slider-carrusel/big-livingroom-freshly-painted_q2xmna_pnas7j_ltp2xm.webp);
-  }
+  } */
   .home-showcase {
     height: 90rem;
   }

@@ -24,7 +24,7 @@ header {
 }
 .cell-phone-icon {
   font-size: 2rem;
-  color: var(--green-5);
+  color: black;
 }
 .logo-div {
   display: flex;

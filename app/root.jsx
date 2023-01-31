@@ -11,10 +11,12 @@ import {
   ScrollRestoration,
   useCatch,
 } from '@remix-run/react'
-import styledMain from '~/styles/main.css'
-import styledHeader from '~/styles/header.css'
-import styledButtons from '~/styles/buttons.css'
+
 import styledDocumentErrors from '~/styles/document-errors.css'
+import styledButtons from '~/styles/buttons.css'
+import styledHeader from '~/styles/header.css'
+import styledMain from '~/styles/main.css'
+
 import Header from './components/navigation/Header'
 import Sitemap from './components/Sitemap'
 import Footer from './components/Footer'
@@ -107,9 +109,9 @@ export function ErrorBoundary({ error }) {
 
 export function links() {
   return [
-    { rel: 'stylesheet', href: styledHeader },
-    { rel: 'stylesheet', href: styledMain },
-    { rel: 'stylesheet', href: styledButtons },
     { rel: 'stylesheet', href: styledDocumentErrors },
+    { rel: 'stylesheet', href: styledHeader },
+    { rel: 'stylesheet', href: styledButtons },
+    { rel: 'stylesheet', href: styledMain },
   ]
 }

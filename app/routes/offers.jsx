@@ -26,12 +26,12 @@ export default function OffersPage() {
           <h6>pay for one bedroom, get the second one half price!!</h6>
           <p>
             You simply pay for one standard bedroom and we paint two (Walls only
-            , not closets, 2 coats, 2 colours, no feature walls, 30 minutes of
+            , not closets, 2 coats, 2 colours, no feature walls, 15 minutes of
             drywall repair included). All labour and materials are included! The
             main idea of this offer is to ensure you get to know our
             workmanship, ethics and exceptional quality. 2 standard bedrooms,
-            small to medium size for $320 (Super 2 eggshell from Cloverdale
-            paints). Or $380 (Emerald matte from Sherwin Williams paints or
+            small to medium size for $330 (Super 2 eggshell from Cloverdale
+            paints). Or $400 (Emerald matte from Sherwin Williams paints or
             Regal eggshell from Benjamin Moore paints). This offer does not
             apply to calgary surraunded areas. Email us now!!
             <span className='offer-ends'>Offer Ends January 30 / 2023</span>

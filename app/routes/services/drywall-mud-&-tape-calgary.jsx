@@ -73,6 +73,16 @@ export default function DrywallMudTapePage() {
       <div className='book-button-wrapper'>
         <DrywallEstimateButton url='../booking/drywall-ceiling-removal-and-texturing' />
       </div>
+      <div className='canada-best'>
+        <a
+          className='canada-best-a'
+          href='https://www.clevercanadian.ca/best-5-drywall-calgary/'>
+          <img
+            src='https://res.cloudinary.com/alberta-colour-painting/image/upload/v1677259400/CleverCanadian_njdfo4.png'
+            alt='clever canadian logo'
+          />
+        </a>
+      </div>
     </main>
   )
 }

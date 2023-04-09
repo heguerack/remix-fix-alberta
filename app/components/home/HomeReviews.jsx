@@ -40,7 +40,7 @@ export default function HomeReviews() {
       </div>
       {/* remember there isa book-button wrapper class inside them! */}
       <PaintingEstimateButton />
-      <DrywallEstimateButton />
+      {/* <DrywallEstimateButton /> */}
     </section>
   )
 }

@@ -127,7 +127,7 @@ export default function About() {
         </div>
       </div>
       <PaintingEstimateButton url='/booking/house-painting' />
-      <DrywallEstimateButton url='/booking/drywall-ceiling-removal-and-texturing' />
+      {/* <DrywallEstimateButton url='/booking/drywall-ceiling-removal-and-texturing' /> */}
 
       <div className='about-contact-form-wrapper'>
         <ContactFormSmall comingFrom='About form' />

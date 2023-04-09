@@ -1,6 +1,6 @@
 import { NavLink } from '@remix-run/react'
 import ServiceSubmenu from './ServiceSubmenu'
-import BookingSubmenu from '../navigation/BookingSubmenu'
+// import BookingSubmenu from '../navigation/BookingSubmenu'
 import AboutSubmenu from './AboutSubmenu'
 import { useState } from 'react'
 
@@ -80,10 +80,12 @@ export default function MainNav({ toggleMenu }) {
         aria-controls='submenu-3'
         onMouseOver={onMouseOverBooking}
         onMouseOut={onMouseOutBooking}>
-        <NavLink to='#' className='main-nav-link main-nav-link-to-submenu '>
+        <NavLink
+          to='/booking/house-painting-and-commercial-painting'
+          className='main-nav-link main-nav-link-to-submenu '>
           Booking
         </NavLink>
-        {bookingSubmenu ? <BookingSubmenu toggleMenu={toggleMenu} /> : ''}
+        {/* {bookingSubmenu ? <BookingSubmenu toggleMenu={toggleMenu} /> : ''} */}
       </li>
       <hr className='main-nav-hr' />
       <li className='main-nav-li'>

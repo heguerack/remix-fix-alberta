@@ -93,7 +93,13 @@ export default function OffersPage() {
           <p>
             <span className='offer-ends'>Offer Ends February 27 / 2023</span>
           </p>
-          <DrywallEstimateButton bg='black' url='../booking/house-painting' />
+          {/* <DrywallEstimateButton bg='black' url='../booking/house-painting' /> */}
+          <div>
+            <PaintingEstimateButton
+              bg='black'
+              url='../booking/house-painting'
+            />
+          </div>
         </div>
       </div>
     </main>

@@ -16,7 +16,7 @@ export default function HomeShowcase() {
             <span>Interior and Exterior Painting Services</span>
           </h1>
           <PaintingEstimateButton />
-          <DrywallEstimateButton />
+          {/* <DrywallEstimateButton /> */}
           <div className='home-showcase-awards'>
             <div>
               <img

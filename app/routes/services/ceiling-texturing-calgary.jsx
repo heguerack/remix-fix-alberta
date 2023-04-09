@@ -4,7 +4,9 @@ import {
   heading,
   paragraph,
 } from '../../../public/data/ceilingTexturingData'
-import { DrywallEstimateButton } from '~/components/util/Buttons'
+// import { DrywallEstimateButton } from '~/components/util/Buttons'
+import { PaintingEstimateButton } from '~/components/util/Buttons'
+
 import ServicePageAwards from '../../components/util/ServicePageAwards'
 import styledService from '~/styles/service-page.css'
 import styledSliderSection from '../../styles/slider-service-section.css'
@@ -88,7 +90,8 @@ export default function CalgaryCeilingTexturingPage() {
       </p>
       <ServicePageAwards />
       <div className='book-button-wrapper'>
-        <DrywallEstimateButton url='../booking/drywall-ceiling-removal-and-texturing' />
+        {/* <DrywallEstimateButton url='../booking/drywall-ceiling-removal-and-texturing' /> */}
+        <PaintingEstimateButton url='../booking/house-painting-and-commercial-painting' />
       </div>
     </main>
   )

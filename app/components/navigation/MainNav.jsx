@@ -82,6 +82,7 @@ export default function MainNav({ toggleMenu }) {
         onMouseOut={onMouseOutBooking}>
         <NavLink
           to='/booking/house-painting-and-commercial-painting'
+          onClick={toggleMenu}
           className='main-nav-link main-nav-link-to-submenu '>
           Booking
         </NavLink>

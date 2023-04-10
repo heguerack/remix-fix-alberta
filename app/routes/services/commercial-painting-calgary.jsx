@@ -4,7 +4,7 @@ import {
   heading,
   paragraph,
 } from '../../../public/data/commercialPaintingData'
-import { PaintingEstimateButton } from '~/components/util/Buttons'
+import { EstimateButton } from '~/components/util/Buttons'
 import ServicePageAwards from '../../components/util/ServicePageAwards'
 import styledService from '~/styles/service-page.css'
 import styledSliderSection from '../../styles/slider-service-section.css'
@@ -72,7 +72,7 @@ export default function CommercialPaintingPage() {
       <ServicePageAwards />
 
       <div className='book-button-wrapper'>
-        <PaintingEstimateButton url='../booking/house-painting' />
+        <EstimateButton />
       </div>
     </main>
   )

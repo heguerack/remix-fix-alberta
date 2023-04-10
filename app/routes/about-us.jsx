@@ -1,10 +1,7 @@
 import styledAbout from '~/styles/about.css'
 import ContactFormSmall from '../components/util/ContactFormSmall'
 import styledForm from '../styles/contact-form-small.css'
-import {
-  DrywallEstimateButton,
-  PaintingEstimateButton,
-} from '../components/util/Buttons'
+import { EstimateButton } from '../components/util/Buttons'
 import { AiFillCheckCircle, AiFillCheckSquare } from 'react-icons/ai'
 import { BsPatchCheckFill } from 'react-icons/bs'
 // import { addLead } from '../data-server/lead.server'
@@ -126,8 +123,8 @@ export default function About() {
           </div>
         </div>
       </div>
-      <PaintingEstimateButton url='/booking/house-painting' />
-      {/* <DrywallEstimateButton url='/booking/drywall-ceiling-removal-and-texturing' /> */}
+      <EstimateButton />
+      {/* <DrywallEstimateButton  /> */}
 
       <div className='about-contact-form-wrapper'>
         <ContactFormSmall comingFrom='About form' />

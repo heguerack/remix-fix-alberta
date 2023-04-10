@@ -47,19 +47,36 @@ export function DrywallEstimateButton({ bg, myClass }) {
   )
 }
 
-export function PaintingEstimateButton({ bg, myClass }) {
+// export function PaintingEstimateButton({ bg, myClass }) {
+//   return (
+//     <div className={`book-button-wrapper ${myClass}`}>
+//       <Link
+//         to='/booking/house-painting-and-commercial-painting'
+//         className='book-button'>
+//         <div className='book-button-up'>
+//           <FcCalendar className='calendar-icon' />
+//           <FaHandPointLeft className='hand-icon' />
+//           <span>BOOK ESTIMATE</span>
+//         </div>
+//         <div className={bg ? `${bg} book-button-down` : 'book-button-down'}>
+//           <p>Interior & Exterior Painting</p>
+//         </div>
+//       </Link>
+//     </div>
+//   )
+// }
+
+export function EstimateButton({ bg, myClass }) {
   return (
     <div className={`book-button-wrapper ${myClass}`}>
-      <Link
-        to='/booking/house-painting-and-commercial-painting'
-        className='book-button'>
+      <Link to='/booking' className='book-button'>
         <div className='book-button-up'>
           <FcCalendar className='calendar-icon' />
           <FaHandPointLeft className='hand-icon' />
           <span>BOOK ESTIMATE</span>
         </div>
         <div className={bg ? `${bg} book-button-down` : 'book-button-down'}>
-          <p>Interior & Exterior Painting</p>
+          <p>Painting, popcorn removal, drywall, & stucco</p>
         </div>
       </Link>
     </div>

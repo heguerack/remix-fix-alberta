@@ -1,5 +1,5 @@
 import { Link } from '@remix-run/react'
-import { PaintingEstimateButton } from '../util/Buttons'
+import { EstimateButton } from '../util/Buttons'
 export default function HomeCredentials() {
   return (
     <section className='home-credentials'>
@@ -60,7 +60,7 @@ export default function HomeCredentials() {
       <p></p>
       <p></p>
       <p></p>
-      <PaintingEstimateButton url='/booking/house-painting' />
+      <EstimateButton />
     </section>
   )
 }

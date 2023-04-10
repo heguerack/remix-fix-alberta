@@ -1,6 +1,6 @@
 import {
   DrywallEstimateButton,
-  PaintingEstimateButton,
+  EstimateButton,
 } from '~/components/util/Buttons'
 import ContactFormSmall from '~/components/util/ContactFormSmall'
 import styledContactFormSmall from '../styles/contact-form-small.css'
@@ -33,7 +33,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <PaintingEstimateButton />
+      <EstimateButton />
       {/* <DrywallEstimateButton /> */}
 
       <div className='questions-form'>

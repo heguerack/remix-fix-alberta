@@ -6,9 +6,14 @@ export default function bookingPainting() {
     <>
       <main>
         <div className='inline-widget-wrapper'>
-          <InlineWidget
+          {/* <InlineWidget
             className='booking-calendly-widget'
             url='https://calendly.com/alberta-colour-painting/painting-estimate?hide_gdpr_banner=1'
+            // style='min-width:320px;height:750px;'
+          /> */}
+          <InlineWidget
+            className='booking-calendly-widget'
+            url='https://calendly.com/alberta-colour-painting/booking?hide_gdpr_banner=1'
             // style='min-width:320px;height:750px;'
           />
         </div>

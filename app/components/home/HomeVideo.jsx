@@ -1,4 +1,4 @@
-import { PaintingEstimateButton } from '~/components/util/Buttons'
+import { EstimateButton } from '~/components/util/Buttons'
 import { YoutubeIframe } from '../util/Iframes'
 export default function HomeVideo() {
   return (
@@ -67,10 +67,7 @@ export default function HomeVideo() {
           you want to transform your home with a fresh coat of paint, give us a
           call and let us help you bring your vision to life.
         </p>
-        <PaintingEstimateButton
-          url='/booking/house-painting'
-          myClass='book-button-wrapper-slider'
-        />
+        <EstimateButton url='/booking' myClass='book-button-wrapper-slider' />
       </div>
     </section>
   )

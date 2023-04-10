@@ -16,9 +16,7 @@ export default function HomeServices() {
             <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/house-painting-and-commercial-painting'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/interior-painting-calgary'>VISIT PAGE</Link>
           </div>
@@ -33,9 +31,7 @@ export default function HomeServices() {
             <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/house-painting-and-commercial-painting'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/exterior-painting-calgary'>VISIT PAGE</Link>
           </div>
@@ -50,9 +46,7 @@ export default function HomeServices() {
             <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/house-painting-and-commercial-painting'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/commercial-painting-calgary'>VISIT PAGE</Link>
           </div>
@@ -67,9 +61,7 @@ export default function HomeServices() {
             <div>PAINTING</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/house-painting-and-commercial-painting'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/ceiling-painting-calgary'>VISIT PAGE</Link>
           </div>
@@ -89,9 +81,7 @@ export default function HomeServices() {
             <div>REMOVAL</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/popcorn-ceiling-removal-calgary'>
               VISIT PAGE
@@ -109,9 +99,7 @@ export default function HomeServices() {
             <div>MUD & TAPE</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/drywall-mud-&-tape-calgary'>VISIT PAGE</Link>
           </div>
@@ -126,9 +114,7 @@ export default function HomeServices() {
             <div>TEXTURING</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/ceiling-texturing-calgary'>VISIT PAGE</Link>
           </div>
@@ -143,9 +129,7 @@ export default function HomeServices() {
             <div>APPLICATION</div>
           </h3>
           <div className='service-buttons-div'>
-            <Link to='/booking/drywall,ceiling-removal,ceiling-texturing,-and-exterior-stucco-application'>
-              BOOK ESTIMATE!
-            </Link>
+            <Link to='/booking'>BOOK ESTIMATE!</Link>
             <span>OR</span>
             <Link to='/services/exterior-stucco-application-calgary'>
               VISIT PAGE

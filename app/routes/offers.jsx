@@ -2,7 +2,7 @@ import styledOffers from '../styles/offers.css'
 import ContactForm from '../components/util/ContactFormTwoForOne'
 import styledForm from '../styles/contact-form-2for1.css'
 import {
-  PaintingEstimateButton,
+  EstimateButton,
   DrywallEstimateButton,
 } from '../components/util/Buttons'
 import { FaCheckCircle } from 'react-icons/fa'
@@ -55,10 +55,7 @@ export default function OffersPage() {
           </p>
           <span className='offer-ends'>Offer Ends March 27 / 2023</span>
           <div>
-            <PaintingEstimateButton
-              bg='black'
-              url='../booking/house-painting'
-            />
+            <EstimateButton bg='black' />
           </div>
         </div>
       </div>
@@ -93,12 +90,9 @@ export default function OffersPage() {
           <p>
             <span className='offer-ends'>Offer Ends February 27 / 2023</span>
           </p>
-          {/* <DrywallEstimateButton bg='black' url='../booking/house-painting' /> */}
+          {/* <DrywallEstimateButton bg='black'  /> */}
           <div>
-            <PaintingEstimateButton
-              bg='black'
-              url='../booking/house-painting'
-            />
+            <EstimateButton bg='black' />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import {
   SmallHomestarsIframe,
   GoogleIframe,
 } from '../../components/util/Iframes'
-import { PaintingEstimateButton, DrywallEstimateButton } from '../util/Buttons'
+import { EstimateButton } from '../util/Buttons'
 export default function HomeReviews() {
   return (
     <section className='home-reviews'>
@@ -39,7 +39,7 @@ export default function HomeReviews() {
         <GoogleIframe />
       </div>
       {/* remember there isa book-button wrapper class inside them! */}
-      <PaintingEstimateButton />
+      <EstimateButton />
       {/* <DrywallEstimateButton /> */}
     </section>
   )

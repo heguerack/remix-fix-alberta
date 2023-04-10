@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 export default function MainNav({ toggleMenu }) {
   const [servicesSubmenu, setServicesSubmenu] = useState(false)
-  const [bookingSubmenu, setBookingSubmenu] = useState(false)
+  // const [bookingSubmenu, setBookingSubmenu] = useState(false)
   const [aboutSubmenu, setAboutSubmenu] = useState(false)
 
   const onMouseOverAbout = () => {
@@ -81,7 +81,7 @@ export default function MainNav({ toggleMenu }) {
         onMouseOver={onMouseOverBooking}
         onMouseOut={onMouseOutBooking}>
         <NavLink
-          to='/booking/house-painting-and-commercial-painting'
+          to='/booking'
           onClick={toggleMenu}
           className='main-nav-link main-nav-link-to-submenu '>
           Booking

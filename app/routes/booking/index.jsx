@@ -1,4 +1,3 @@
-import { Outlet } from '@remix-run/react'
 import { InlineWidget } from 'react-calendly'
 import styledBooking from '../../styles/booking.css'
 export default function bookingPainting() {

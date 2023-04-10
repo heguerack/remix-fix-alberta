@@ -1,8 +1,9 @@
-import {
-  DrywallEstimateButton,
-  PaintingEstimateButton,
-  CallEstimateButton,
-} from '../util/Buttons'
+// import {
+//   // DrywallEstimateButton,
+//   // PaintingEstimateButton,
+//   // CallEstimateButton,
+// } from '../util/Buttons'
+import { EstimateButton } from '../util/Buttons'
 import ContactFormSmall from '~/components/util/ContactFormSmall'
 
 export default function HomeShowcase() {
@@ -15,7 +16,7 @@ export default function HomeShowcase() {
             <span> for Affordable</span>
             <span>Interior and Exterior Painting Services</span>
           </h1>
-          <PaintingEstimateButton />
+          <EstimateButton />
           {/* <DrywallEstimateButton /> */}
           <div className='home-showcase-awards'>
             <div>

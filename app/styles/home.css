@@ -151,12 +151,12 @@
   align-items: center;
   width: 16rem;
   margin: 2rem;
-  background: var(--green-2);
+  background: var(--green-3);
   padding: 2rem;
   border-radius: var(--borderRadius);
 }
 .service-card-wrapper:hover {
-  background-color: var(--green-3);
+  background-color: var(--green-4);
   transition: var(--transition);
   transform: scale(1.01);
 }
@@ -193,13 +193,13 @@
 }
 .service-buttons-div a:nth-child(3) {
   border: none;
-  background-color: var(--gray-8);
+  background-color: var(--green-6);
   color: white;
   border-radius: var(--borderRadius);
   padding: 0.1rem 0.4rem;
 }
 .service-buttons-div a:nth-child(3):hover {
-  background-color: var(--gray-7);
+  background-color: var(--green-7);
 }
 
 @media (max-width: 1200px) {

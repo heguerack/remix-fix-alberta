@@ -20,8 +20,8 @@ export default function Index() {
   return (
     <main>
       <HomeShowcase />
-      <HomeServices />
       <HomeReviews />
+      <HomeServices />
       <HomeGallery />
       <HomeVideo />
       <HomeBlogOffers />
